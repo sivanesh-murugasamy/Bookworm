@@ -1,0 +1,43 @@
+/* Style the search container */
+.search-container {
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    height: 23vh; /* You can adjust this to position the search bar as needed */
+}
+
+/* Style the search bar input */
+.search-bar {
+    padding: 10px;
+    width: 300px; /* Adjust the width as needed */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the search button */
+.search-button {
+    background-color: #ff6347; /* Blue color, you can change this */
+    color: #fff; /* Text color */
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px; /* Add spacing between input and button */
+    cursor: pointer;
+}
+
+/* Style the search button on hover */
+.search-button:hover {
+    background-color: #030303; /* Darker blue color on hover */
+}
+
+.styletxt
+{
+  
+  color:#2c2006;
+  font-size: px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
